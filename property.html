@@ -4,9 +4,244 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NusaProperty</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="page">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="NusaProperti — kembali ke beranda">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M3 9.5L12 3l9 6.5"></path>
+            <path d="M19 13v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-6"></path>
+            <path d="M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6"></path>
+          </svg>
+        </span>
+        NusaProperti
+      </a>
+      <a class="contact-link" href="index.html#contacts">Hubungi Kami</a>
+    </header>
+
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <span class="eyebrow">Koleksi Properti</span>
+        <h1 id="page-title">Temukan hunian yang terasa seperti rumah</h1>
+        <p>
+          Pilihan rumah dan vila di lokasi strategis, dikurasi untuk membantu Anda menemukan tempat yang sesuai dengan
+          kebutuhan dan gaya hidup.
+        </p>
+      </section>
+
+
+      <!-- <section class="property-grid swiper mySwiper" aria-label="Tiga properti pilihan" > -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-1.jpg"
+                alt="Vila modern dengan kolam renang dan pemandangan laut" loading="lazy">
+                <span class="badge">Unggulan</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Pantai Indah Kapuk, Jakarta Utara</p>
+                <h2 class="property-name">Vila Samudra</h2>
+                <div class="specs">
+                <span>4 kamar tidur</span>
+                <span>2 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 8,5 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-2.jpg"
+                alt="Rumah modern dengan halaman hijau di Bandung" loading="lazy">
+                <span class="badge">Populer</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Setiabudi, Bandung</p>
+                <h2 class="property-name">Rumah Setiabudi</h2>
+                <div class="specs">
+                <span>3 kamar tidur</span>
+                <span>2 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 4,2 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-3.jpg" alt="Vila minimalis di tengah suasana hijau"
+                loading="lazy">
+                <span class="badge">Terverifikasi</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Canggu, Kabupaten Badung, Bali</p>
+                <h2 class="property-name">Vila Cemara</h2>
+                <div class="specs">
+                <span>3 kamar tidur</span>
+                <span>1 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 3,75 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-4.jpg"
+                alt="Vila modern dengan kolam renang dan pemandangan laut" loading="lazy">
+                <span class="badge">Unggulan</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Pantai Indah Kapuk, Jakarta Utara</p>
+                <h2 class="property-name">Vila Samudra</h2>
+                <div class="specs">
+                <span>4 kamar tidur</span>
+                <span>2 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 8,5 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-5.jpg"
+                alt="Rumah modern dengan halaman hijau di Bandung" loading="lazy">
+                <span class="badge">Populer</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Setiabudi, Bandung</p>
+                <h2 class="property-name">Rumah Setiabudi</h2>
+                <div class="specs">
+                <span>3 kamar tidur</span>
+                <span>2 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 4,2 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-6.jpg" alt="Vila minimalis di tengah suasana hijau"
+                loading="lazy">
+                <span class="badge">Terverifikasi</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Canggu, Kabupaten Badung, Bali</p>
+                <h2 class="property-name">Vila Cemara</h2>
+                <div class="specs">
+                <span>3 kamar tidur</span>
+                <span>1 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 3,75 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-7.jpg"
+                alt="Vila modern dengan kolam renang dan pemandangan laut" loading="lazy">
+                <span class="badge">Unggulan</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Pantai Indah Kapuk, Jakarta Utara</p>
+                <h2 class="property-name">Vila Samudra</h2>
+                <div class="specs">
+                <span>4 kamar tidur</span>
+                <span>2 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 8,5 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-8.jpg"
+                alt="Rumah modern dengan halaman hijau di Bandung" loading="lazy">
+                <span class="badge">Populer</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Setiabudi, Bandung</p>
+                <h2 class="property-name">Rumah Setiabudi</h2>
+                <div class="specs">
+                <span>3 kamar tidur</span>
+                <span>2 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 4,2 M</span>
+                </div>
+            </div>
+            </article>
+            <article class="property-card swiper-slide">
+            <div class="card-image-wrap">
+                <img class="card-image" src="Asset/property-9.jpg" alt="Vila minimalis di tengah suasana hijau"
+                loading="lazy">
+                <span class="badge">Terverifikasi</span>
+            </div>
+            <div class="card-content">
+                <p class="location">Canggu, Kabupaten Badung, Bali</p>
+                <h2 class="property-name">Vila Cemara</h2>
+                <div class="specs">
+                <span>3 kamar tidur</span>
+                <span>1 kamar mandi</span>
+                </div>
+                <div class="price-row">
+                <span class="price-label">Harga properti</span>
+                <span class="price">Rp 3,75 M</span>
+                </div>
+            </div>
+            </article>
+        </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+      
+      <!-- </section> -->
+
+      <p class="page-note">Informasi harga dan ketersediaan dapat berubah. Hubungi tim kami untuk detail terbaru.</p>
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+
 </body>
 </html>

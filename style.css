@@ -240,3 +240,7 @@ body {
       font-size: 0.78rem;
       text-align: center;
     }
+.swiper-wrapper {
+    margin-bottom: 50px;
+}
+
